@@ -12,6 +12,8 @@
 #'
 #' divide(4, 0)
 #' # Outputs an error message: "You cannot divide by 0."
+#' 
+#' @export
 divide <- function(x, y) {
   if (y == 0) {
     stop("You cannot divide by 0.")
@@ -20,5 +22,3 @@ divide <- function(x, y) {
     return(result)
   }
 }
-
-

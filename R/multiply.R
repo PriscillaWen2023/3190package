@@ -8,6 +8,7 @@
 #' @examples
 #' multiply(2, 3)
 #' # Returns: 6
+#' @export
 multiply <- function(x, y) {
   result <- x * y
   return(result)
